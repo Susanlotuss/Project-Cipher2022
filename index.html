@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Caesar-cipher-project</title>
+</head>
+<body>
+    <div id="cifrados">
+        <!--BIENVENIDA-->
+        <section class="home" id="home-id">
+            <h1 class="glitch">CAESARS CIPHER</h1>
+                <br>
+                <br>
+            <h3 class="choose-what-to-do" id="choose-what-to-do-id">¿Qué quieres hacer hoy?</h3>
+                <br>
+                <br>
+                <div id="Btn-start-project">
+                    <button type="button" id="btn-op1">Cifrar</button>
+                    <button type="button" id="btn-op2">Descifrar</button>
+                </div>
+        </section>
+        <!--PÁGINA 2 CIFRAR-->
+        <section class="page-cipher" id="page-cipher-id">
+            <h1 id="tittle-cipher">CIFRADO</h1>
+            <hr>
+            <br>
+            <h5>Ingrese el número de desplazamientos:</h5>
+            <input type= "number" name="add-number" class="form-add-number" id="form-add-number-id1" value=""/>
+        <br>
+        <label for="form-add-number-id"></label>
+            <h5>Ingrese el texto a Cifrar:</h5>
+        <input type="text" id="form-add-text-id">
+        <label for="form-add-text-id"></label>
+        <br>
+        <br>
+        <button type="button" id="go-cipher-btn">GO!</button>
+            <h5>Cifrado:</h5>
+        <input type="text" name="cipher-out" id="cipher-out-id"></input>
+        </section>
+        <!--PÁGINA 3 DESCIFRAR-->
+        <section class="page-decipher" id="page-decipher-id">
+            <h1 id="tittle-decipher">DESCIFRAR</h1>
+            <br>
+            <hr>
+            <h5>Ingrese el número de desplazamientos:</h5>
+        <input type= "number" name="add-number2" class="form-add-number2" id="form-add-number-id2" value=""/>
+        <br>
+        <label for="form-add-number-id2"></label>
+            <h5>Ingrese el texto a Descifrar:</h5>
+            <form action="" class="formForDecipher" id="formForDecipher-id">
+        <input type="text" id= "form-add-text-id2">
+        <label for="form-add-text-id2"></label>
+        <br>
+        <button type="button" id="go-decipher-btn">GO!</button>
+        </form>
+            <h5>Descifrado:</h5>
+        <input type="text" name="decipher-out" id="decipher-out-id"></input>
+        </section>
+    </div>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+body {
+    background-image: url("https://www.todofondos.net/wp-content/uploads/hq-todofondos-neon4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(232, 237, 243);
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 220%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#cifrados {
+    background-color: black;
+    justify-content: center;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.glitch {
+    font-size: 200%;
+    font-weight: 700;
+    text-shadow: 0.10em 0 0 rgba(255, 0, 0, 0.75), -0.035em -0.10em 0 rgba(0, 255, 0, 0.75), 0.035em 0.10em 0 rgba(0, 0, 255, 0.75);
+
+    animation: glitch 2000ms infinite;
+}
+@keyframes glitch{
+    0% {
+        text-shadow: 0.10em 0 0 rgba(255, 0, 0, 0.75), -0.10em -0.035em 0 rgba(0, 255, 0, 0.75), 0.035em 0.10em 0 rgba(0, 0, 255, 0.75);
+    }
+    15% {
+        text-shadow: -0.10em -0.035em 0 rgba(255, 0, 0, 0.75), 0.035em 0.035em 0 rgba(0, 255, 0, 0.75), -0.10em -0.10em 0 rgba(0, 0, 255, 0.75);
+    }
+    50% {
+        text-shadow: 0.035em 0.10em 0 rgba(255, 0, 0, 0.75), 0.10em 0 0 rgba(0, 255, 0, 0.75), 0 -0.10em 0 rgba(0, 0, 255, 0.75);
+    }
+    100% {
+        text-shadow: -0.035em 0 0 rgba(255, 0, 0, 0.75), -0.035em -0.035em 0 rgba(0, 255, 0, 0.75), -0.035em -0.10em 0 rgba(0, 0, 255, 0.75);
+    }
+}
+#btn-op1 {
+    width: 250px;
+    font-family: monospace;
+    font-size: 100%;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;;
+}
+#btn-op2 {
+    width: 250px;
+    font-family: monospace;
+    font-size: 100%;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;;
+}
+#go-cipher-btn {
+    width: 80px;
+    margin: 10%;
+    font-family: monospace;
+    font-size: 100%;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+button:hover {
+    cursor: pointer;
+}
+#tittle-cipher {
+    font-size: 200%;
+    font-family: monospace;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+}
+#tittle-decipher {
+    font-size: 200%;
+    font-family: monospace;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+}
+#go-decipher-btn {
+    width: 80px;
+    margin: 10%;
+    font-family: monospace;
+    font-size: 100%;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+#form-add-number-id {
+    align-content: center;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+#form-add-text-id {
+    align-content: center;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+#form-add-text-id2 {
+    align-content: center;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+#cipher-out-id {
+    align-content: center;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+#decipher-out-id {
+    align-content: center;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
+#home-id {
+    display: block;
+}
+#home-id-invisible {
+    display: none;
+}
+#page-cipher-id {
+    display: none;
+}
+#page-ipher-id-visible {
+    display: block;
+}
+#page-decipher-id {
+    display: none;
+}
+#page-decipher-id-visible {
+    display: block;
+}
